@@ -1,7 +1,7 @@
 <?php
 
 use App\Purpose;
-use Illuminate\Database\Seeder; 
+use Illuminate\Database\Seeder;  
 class DatabaseSeeder extends Seeder
 {
     /**
@@ -12,7 +12,7 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         $this->call([
-            RolesTableSeeder::class, 
+            RoleSeeder::class, 
         ]);
     }
 }

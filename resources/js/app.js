@@ -14,9 +14,8 @@ import router from './router';
 
 import App from './components/AppComponent';
 import Login from './components/LoginComponent';
-import store from "./store";
-import VueSlimScroll from 'vue-slimscroll'; 
-Vue.use(VueSlimScroll);
+import store from "./store";  
+  
 Vue.use(require("vue-moment")); 
 new Vue({
     el: '#app',

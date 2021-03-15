@@ -8,7 +8,13 @@ use App\User;
 use Illuminate\Foundation\Auth\RegistersUsers;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
+use App\Batch;
+use App\CollegeBatch;
+use App\HighBatch; 
+use App\UserDetail;
+use App\Role; 
 
+use Illuminate\Support\Facades\Auth;
 class RegisterController extends Controller
 {
     /*
@@ -50,9 +56,9 @@ class RegisterController extends Controller
     protected function validator(array $data)
     {
         return Validator::make($data, [
-            'name' => ['required', 'string', 'max:255'],
-            'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
-            'password' => ['required', 'string', 'min:8', 'confirmed'],
+            'fname' => ['required', 'string', 'max:255'],
+            'lname' => ['required', 'string', 'max:255'],  
+            'email' => ['required', 'string', 'email', 'max:255', 'unique:users'], 
         ]);
     }
 
@@ -64,10 +70,34 @@ class RegisterController extends Controller
      */
     protected function create(array $data)
     {
-        return User::create([
-            'name' => $data['name'],
-            'email' => $data['email'],
-            'password' => Hash::make($data['password']),
-        ]);
+        // return User::create([
+        //     'fname' => $data['fname'],
+        //     'lname' => $data['lname'],
+        //     'mname' => $data['mname'],
+        //     'bday' => $data['bday'],
+        //     'email' => $data['email'],
+        //     'password' => Hash::make($data['password']),
+        // ]); 
+        $user = new User([ 
+            'fname' => $data["fname"] ,
+            'mname' => $data["mname"] ,
+            'lname' => $data["lname"] ,
+            'email' => $data["email"] ,  
+            'bday' => $data['bday'],
+            'password' => Hash::make($data["password"]) ,
+            'status' => 0, 
+        ]);  
+        $user->save();
+        $batch = new UserDetail([ 
+            'student_number' => $data["student_number"] ,
+            'batch_type_id' => $data["batch"] ,
+            'h_batch_year_id' => $data["h_year"] ,
+            'c_batch_year_id' => $data["c_year"] ,  
+            'user_id' => $user->id,
+        ]);  
+        $role =Role::where('name','user')->first();
+        $user->roles()->attach($role);
+        $batch->save(); 
+        return $user;
     }
 }

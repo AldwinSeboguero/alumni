@@ -31,21 +31,7 @@
                         >
                           Sign in to ParSU Alumni
                         </h1>
-                        <!-- <div class="text-center pb-2 mt-4">
-                              <v-btn class="mx-2" fab  >
-                                <v-icon>mdi mdi-facebook</v-icon>
-                              </v-btn>
-                              <v-btn class="mx-2" fab  >
-                                <v-icon>mdi mdi-google-plus</v-icon>
-                              </v-btn>
-                              <v-btn class="mx-2" fab  >
-                                <v-icon>mdi mdi-linkedin</v-icon>
-                              </v-btn> 
-                            </div> -->
-                        <v-btn class="mx-2" fab  >
-                                <v-icon>mdi mdi-google-plus</v-icon>
-                        </v-btn>
-
+                       
                         <h4 class="text-center mt-4">
                           Ensure your email for sign in
                         </h4>
@@ -57,6 +43,7 @@
                             prepend-icon="mdi-email"
                             type="text"
                             color="teal accent-4"
+                            :rules="[rules.required, rules.validEmail]"
                           />
                           <v-text-field
                             :type="showPassword ? 'text' : 'password'"
@@ -67,6 +54,7 @@
                             :append-icon="
                               showPassword ? 'mdi-eye' : 'mdi-eye-off'
                             "
+                              :rules="[rules.required]"
                             @click:append="showPassword = !showPassword"
                           />
                         </v-form>
@@ -276,6 +264,20 @@ export default {
     password: "",
     loading: false,
     snackbar: false,
+    showPassword: false,
+    showPasswordc: false,
+    loginloading: false,
+    email: "",
+    password: "",
+    student: {
+      student_number: "",
+    },
+     rules: {
+      required: (v) => !!v || "This Field is Required",
+      // min: (v) => v.length >= 5|| "Minimum 5 Characters Required",
+      min: (v) => v.length >= 5 || "Minimum 5 Characters Required",
+      validEmail: (v) => /.+@.+\..+/.test(v) || "Email must be valid",
+    },
     text: "",
     user: {
       email: "",
@@ -353,105 +355,82 @@ export default {
       created_at: "",
     },
   }),
-
-  computed: {
+computed: {
     formTitle() {
-      return this.editedIndex === -1 ? "New Office" : "Edit Office";
+      return this.editedIndex === -1 ? "New User" : "Edit User";
     },
     formIcon() {
-      return this.editedIndex === -1 ? "mdi-plus" : "mdi-pen";
-    }, 
-  },
-
-  watch: {
-    dialog(val) {
-      val || this.close();
+      return this.editedIndex === -1 ? "mdi-account-plus" : "mdi-account-edit";
     },
-     options: {
-      handler() {
-        this.readDataFromAPI();
-      },
+    passwordmatch() {
+      return this.editedItem.password != this.editedItem.confirmPassword
+        ? "Password Does Not Match"
+        : true;
     },
-    deep: true,
-  },
+    checkEmail() {
+      if (/.+@.+\..+/.test(this.editedItem.email)) {
+        axios
+          .post("/api/v1/email/verify", { email: this.editedItem.email })
+          .then((res) => {
+            this.success = res.data.message;
+            this.error = "";
+          })
+          .catch((err) => {
+            this.success = "";
+            this.error = "Email Already Exist";
+          });
+      }
+    },
+    checkUUID() {
+      if (this.activationCode != "") {
+        axios
+          .post("/api/v1/activation/verify", { code: this.activationCode })
+          .then((res) => {
+            if (this.activationCode != "") {
+              this.success = res.data.message;
+              this.error = "";
 
-  created() {
-    this.initialize();
+              this.step++;
+              this.success = "";
+              this.student = res.data.student;
+              this.program = res.data.program;
+            } else if (this.activationCode == "") {
+              this.success = "";
+              this.error = "This Field is Required";
+            }
+          })
+          .catch((err) => {
+            if (this.activationCode != "") {
+              console.log(err);
+              this.success = "";
+              this.error = "Invalid Code";
+            } else if (this.activationCode == "") {
+              console.log(err);
+              this.success = "";
+              this.error = "This Field is Required";
+            }
+          });
+      }
+    },
   },
 
   methods: {
-    batchTypeListener(){
+    batchTypeListener() {
       this.batchIndex = this.editedItem.batch;
       console.log(this.editedItem.batch);
     },
-    readDataFromAPI() {
-      this.loading = true;
-      const { page, itemsPerPage } = this.options;
-      let pageNumber = page;
-      axios
-        .get(`/api/v1/goaOffices?page=` + pageNumber, {
-          params: { 'per_page': itemsPerPage },
-        })
-        .then((response) => {
-          //Then injecting the result to datatable parameters.
-          this.loading = false;
-          //  this.page = response.data.students;
-          this.offices = response.data.offices; 
-          this.officess = response.data.officess; 
-          this.totalOffices = response.data.offices.total;
-          this.numberOfPages = response.data.offices.last_page;
-        })
-          .catch((err) => {
-            console.error(err);
-          });
-    },
-
-    searchIt(d) {
-      if (d.length > 3) {
-        const { page, itemsPerPage } = this.options;
-        axios
-          .get(`/api/v1/offices/${d}`)
-          .then((res) => {
-            this.loading = false; 
-            // this.page = response.data.students;
-           
-            this.offices = res.data.offices;
-            this.totalOffices = res.data.offices.total;
-            this.numberOfPages = res.data.offices.last_page;
-          })
-          .catch((err) => {
-            console.error(err);
-          });
-      }
-      if (d.length <= 0) {
-        axios
-          .get(`/api/v1/offices?page=${d.page}`, {
-            params: { 'per_page': d.itemsPerPage },
-          })
-          .then((res) => {
-            this.loading = false; 
-            this.offices = res.data.offices;
-            this.totalOffices = res.data.offices.total;
-            this.numberOfPages = res.data.offices.last_page;
-          })
-          .catch((err) => {
-            console.error(err);
-          });
-      }
-    },  
     initialize() {
-         axios
+      axios
         .get(`/api/v1/users`)
         .then((res) => {
-          
-           this.h_years = res.data.h_years;
-            this.c_years = res.data.c_years;
-            this.batchtypes = res.data.batches; 
+          this.h_years = res.data.h_years;
+          this.c_years = res.data.c_years;
+          this.batchtypes = res.data.batches;
         })
-          .catch((err) => {
-            console.error(err);
-          });
-      axios.interceptors.request.use( 
+        .catch((err) => {
+          console.error(err);
+        });
+      axios.interceptors.request.use(
         (config) => {
           this.loading = true;
           return config;
@@ -473,77 +452,109 @@ export default {
         }
       );
     },
-
-    editItem(item) {
-      this.editedIndex = this.offices.data.indexOf(item);
-      this.editedItem = Object.assign({}, item);
-      this.dialog = true;
+    loginG() {
+      axios.get("/api/v1/auth/google");
     },
-
-    deleteItem(item) {
-      const index = this.offices.data.indexOf(item);
-      let decide = confirm("Are you sure you want to delete this item?");
-      if (decide) {
-        axios
-          .delete("/api/v1/offices/" + item.id)
-          .then((res) => {
-            this.text = "Record Deleted Successfully!";
-            this.snackbar = true;
-            this.offices.data.splice(index, 1);
-          })
-          .catch((err) => {
-            console.log(err.response);
-            this.text = "Error Deleting Record";
-            this.snackbar = true;
-          });
-      }
+    resetPassword() {
+      this.$router.push({ name: "reset-password" });
     },
-
-    close() {
+    activate() {
+      axios
+        .post("/api/v1/user/register", {
+          email: this.editedItem.email,
+          password: this.editedItem.password,
+          rpassword: this.editedItem.rpassword,
+          student: this.student.id,
+        })
+        .then((response) => {
+          this.dialog = true;
+        })
+        .catch((err) => {
+          this.snackbar = true;
+          this.text = err.response.data.message;
+          console.log(err.response.data.message);
+        });
+    },
+    proceedtologin() {
       this.dialog = false;
-      setTimeout(() => {
-        this.editedItem = Object.assign({}, this.defaultItem);
-        this.editedIndex = -1;
-      }, 300);
+      this.$router.go(0);
+      this.student = "";
+      this.activationCode = "";
+      this.editedItem = "";
     },
 
+    login() {
+      this.loginloading = true;
+      axios
+        .post("/api/v1/user/login", {
+          email: this.user.email,
+          password: this.user.password,
+        })
+        .then((response) => {
+          localStorage.setItem("token", response.data.access_token);
+
+          window.location.replace("/#/");
+          this.loginloading = false;
+        })
+        .catch((err) => {
+          if (err.response.status == 419) {
+            this.$router.push("/");
+          } else {
+            this.snackbar = true;
+            this.text = err.response.data.message;
+            console.log(err.response.data.message);
+          }
+          this.loginloading = false;
+        });
+    },
+    //  dismiss() {
+    //   this.$store.state.error = "";
+    // }
     save() {
-      if (this.editedIndex > -1) {
-        const index = this.editedIndex;
-        axios
-          .put("/api/v1/offices/" + this.editedItem.id, this.editedItem)
-          .then((res) => {
-            this.text = "Record Updated Successfully!";
-            this.snackbar = true;
-            Object.assign(this.offices.data[index], res.data.office);
-          })
-          .catch((err) => {
-            console.log(err.response);
-            this.text = "Error Updating Record";
-            this.snackbar = true;
-          });
-      } else {
-        axios
-          .post("/api/v1/register", this.editedItem)
-          .then((res) => {
-            this.text = "Record Added Successfully!";
-            this.snackbar = true;
-            // // this.campuses.data.push(res.data.campus);
-            // this.offices = res.data.offices;
-            // this.editedItem.name = this.defaultItem.name;
-            console.log(res);
-          })
-          .catch((err) => {
-            console.dir(err);
-            this.text = "Error Inserting Record";
-            this.snackbar = true;
-          });
-      }
-      if (this.editedIndex != -1) {
-        
-      this.close();
-      }
+      axios
+        .post("/api/v1/register", this.editedItem)
+        .then((response) => {
+          this.loginloading = true;
+          axios
+            .post("/api/v1/user/login", {
+              email: this.editedItem.email,
+              password: this.editedItem.password,
+            })
+            .then((response) => {
+              localStorage.setItem("token", response.data.access_token);
+
+              window.location.replace("/#/");
+              this.loginloading = false;
+            })
+            .catch((err) => {
+              if (err.response.status == 419) {
+                this.$router.push("/");
+              } else {
+                this.snackbar = true;
+                this.text = err.response.data.message;
+                console.log(err.response.data.message);
+              }
+              this.loginloading = false;
+            });
+        })
+        .catch((err) => {});
     },
   },
+  created() {
+    this.initialize();
+    axios.defaults.headers["Authorization"] =
+      "Bearer " + localStorage.getItem("token");
+    // this.$store.dispatch('currentUser/getUser');
+    if (localStorage.getItem("token")) {
+      this.$router
+        .push("/")
+        .then((res) => console.log("Already login!"))
+        .catch((err) => console.log(err));
+    }
+  },
+  props: {
+    source: String,
+  },
+  name: "App",
 };
 </script>

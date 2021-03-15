@@ -16,6 +16,10 @@ import PeopleComponent from './components/alumni/PeopleComponent';
 import LiveFeedComponent from './components/alumni/LiveFeedComponent'; 
 import CareerComponent from './components/alumni/CareerComponent'; 
 
+//home Componenent
+import HomeComponent from './components/home/HomeComponent'; 
+import UserComponent from './components/user/UserComponent'; 
+
 Vue.use(VueRouter);
 
 const routes =[
@@ -43,15 +47,24 @@ const routes =[
           auth:false 
         } 
       },
+    // {
+    //     path: '/',
+    //     beforeEnter: checkRoleRoute,
+    //     name: 'login'
+            
+    // },
+    {
+        path: '/login',
+        component: LoginComponent, 
+    },
     {
         path: '/',
         beforeEnter: checkRoleRoute,
         name: 'login'
-            
     },
     {
-        path: '/login',
-        component: LoginComponent, 
+        path: '/userhome',
+        component: UserComponent, 
     },
     
     {
@@ -105,7 +118,7 @@ const routes =[
     },
     {
         path: '/user',
-        component: AdminComponent,
+        component: UserComponent,
         name: 'User', 
         beforeEnter: (to, from, next) => {
             if (localStorage.getItem('token')) {
@@ -118,7 +131,7 @@ const routes =[
     next('/login');
             }
         },
-        redirect: '/user/profile',
+        redirect: '/user/newsfeed',
         children: [
             //Admin Routes
             
@@ -141,6 +154,7 @@ const routes =[
                 },
                 {
                     path: 'newsfeed',
+                    beforeEnter: isUser,
                     component: LiveFeedComponent,
                     name: 'newsfeed' 
                 },

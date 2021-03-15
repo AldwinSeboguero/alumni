@@ -284,6 +284,7 @@ export default {
 
   created() {
     this.initialize();
+      
   },
 
   methods: {
@@ -370,6 +371,7 @@ export default {
     //     });
     // },
     initialize() {
+   
       axios.interceptors.request.use(
         (config) => {
           this.loading = true;
@@ -391,6 +393,7 @@ export default {
           return Promise.reject(error);
         }
       );
+      
     },
 
     editItem(item) {

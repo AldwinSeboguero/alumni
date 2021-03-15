@@ -1,0 +1,5 @@
+[
+    {"name":"admin","description":"Administrator"},
+    {"name":"user","description":"User"},
+    {"name":"director","description":"Alumni Director"}
+    ]

@@ -11,7 +11,7 @@
         <script src="{{ asset('js/app.js') }}" defer></script> 
         <link href="{{ asset('css/app.css') }}" rel="stylesheet">
         <style>
-            .v-navigation-drawer__content {
+            /* .v-navigation-drawer__content {
               overflow: hidden !important;
               scrollbar-width: none;
               -ms-overflow-style: none;
@@ -20,7 +20,44 @@
             .v-navigation-drawer::-webkit-scrollbar {
               width: 0;
               height: 0;
-            }
+            } */
+            .light::-webkit-scrollbar {
+  width: 15px;
+}
+
+.light::-webkit-scrollbar-track {
+  background: #e6e6e6;
+  border-left: 1px solid #dadada;
+}
+
+.light::-webkit-scrollbar-thumb {
+  background: #b0b0b0;
+  border: solid 3px #e6e6e6;
+  border-radius: 7px;
+}
+
+.light::-webkit-scrollbar-thumb:hover {
+  background: black;
+}
+
+.dark::-webkit-scrollbar {
+  width: 15px;
+}
+
+.dark::-webkit-scrollbar-track {
+  background: #202020;
+  border-left: 1px solid #2c2c2c;
+}
+
+.dark::-webkit-scrollbar-thumb {
+  background: #3e3e3e;
+  border: solid 3px #202020;
+  border-radius: 7px;
+}
+
+.dark::-webkit-scrollbar-thumb:hover {
+  background: white;
+}
             </style>
     </head>
     <body>
