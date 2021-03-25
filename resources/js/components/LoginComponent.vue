@@ -26,7 +26,12 @@
                       </v-btn>
                     </div>
                     <h3
-                      class="text-center display-2 primary--text text--accent-4"
+                      class="text-center display-2 primary--text text--accent-4 hidden-sm-and-down"
+                    >
+                      Sign in to ParSU Alumni
+                    </h3>
+                    <h3
+                      class="text-center display-1 primary--text text--accent-4 hidden-sm-and-up"
                     >
                       Sign in to ParSU Alumni
                     </h3>
@@ -176,7 +181,7 @@
                                         rounded
                                       ></v-text-field>
                                       <v-text-field
-                                        label="Middle name"
+                                        label="Middle name (optional)"
                                         v-model="editedItem.mname"
                                         type="MName"
                                         dense
@@ -513,9 +518,35 @@
           </v-col>
         </v-row>
       </v-container>
+         <!-- Load Facebook SDK for JavaScript -->
+      <div id="fb-root"></div>
+        <!-- Your Chat Plugin code -->
+      <div class="fb-customerchat"
+        attribution="setup_tool"
+        page_id="110490564450712">
+      </div>
     </v-main>
   </v-app>
 </template>
+ 
+    
+      <script>
+        window.fbAsyncInit = function() {
+          FB.init({
+            xfbml            : true,
+            version          : 'v10.0'
+          });
+        };
+
+        (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
+
+    
 
 <script>
 export default {

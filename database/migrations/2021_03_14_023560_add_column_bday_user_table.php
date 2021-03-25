@@ -15,8 +15,9 @@ class AddColumnBdayUserTable extends Migration
     {
         Schema::table('users', function (Blueprint $table) {
             $table->timestamp('bday');
-            $table->biginteger('campus_id')->unsigned();
+            $table->biginteger('campus_id')->unsigned()->nullable();
             $table->foreign('campus_id')->references('id')->on('campuses');
+            
         });
     }
 

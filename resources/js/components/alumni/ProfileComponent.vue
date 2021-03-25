@@ -258,11 +258,13 @@ export default {
     source: String,
   },
   
-  data: () => ({
+  data: () => (
+    {
     dialog: false,
     drawer: null,
     user: '',
     role: '',
+    
       years: [
         {
           color: "cyan",
@@ -346,6 +348,10 @@ export default {
     }
   },
   methods: {
+    remove (item) {
+        const index = this.friends.indexOf(item.name)
+        if (index >= 0) this.friends.splice(index, 1)
+      },
         logout(){
           axios.post('logout')
           .then(resposnse => {

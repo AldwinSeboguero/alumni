@@ -65,6 +65,11 @@ use Illuminate\Support\Facades\Route;
     
     Route::resource('completed', 'Admin\CompletedClearanceController');
     Route::resource('admindashboard', 'Admin\AdminController');
+    Route::post('post/upload','User\ProfileController@upload'); 
+    Route::post('post/deleteImage','User\ProfileController@deleteImage');
+    Route::resource('profileInformation', 'Alumni\User\ProfileInformationController');
+
+
  
 
 
@@ -83,10 +88,10 @@ Route::get('getUser', 'Admin\AdminController@getUser');
 
 
 
-//secrets
-Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
-    return $request->user();
-});
+// //secrets
+// Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
+//     return $request->user();
+// });
 
 
 //STudents routes
@@ -150,3 +155,11 @@ Route::resource('users', 'Alumni\UserController');
 
 Route::get('auth/google', 'api\v1\LoginController@redirectToGoogle');
 Route::get('auth/google/callback','api\v1\LoginController@handleGoogleCallback');
+
+//route for saving,deleting and updating work experience
+Route::post('saveWorkExperience','User\ProfileController@saveWorkExperience'); 
+Route::post('updateWorkExperience','User\ProfileController@updateWorkExperience'); 
+Route::post('deleteWorkExperience','User\ProfileController@deleteWorkExperience'); 
+
+//route for saving contact information
+Route::post('saveContactInformation','User\ProfileController@saveContactInformation');

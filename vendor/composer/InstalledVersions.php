@@ -29,7 +29,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => '915900d0cce60f55fac8e5c5700304a9506ea456',
+    'reference' => '025511c79b97d0da5c952961fa0e9e9624a823b3',
     'name' => 'laravel/laravel',
   ),
   'versions' => 
@@ -530,6 +530,15 @@ private static $installed = array (
         0 => 'v7.29.3',
       ),
     ),
+    'intervention/image' => 
+    array (
+      'pretty_version' => '2.5.1',
+      'version' => '2.5.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'abbf18d5ab8367f96b3205ca3c89fb2fa598c69e',
+    ),
     'kodova/hamcrest-php' => 
     array (
       'replaced' => 
@@ -571,7 +580,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => '915900d0cce60f55fac8e5c5700304a9506ea456',
+      'reference' => '025511c79b97d0da5c952961fa0e9e9624a823b3',
     ),
     'laravel/passport' => 
     array (

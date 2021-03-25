@@ -59,10 +59,29 @@
   background: white;
 }
             </style>
+            <style>
+/* When setting CSS, remember that priority increases with specificity, so don't forget to select the exisiting classes as well */
+
+    .Vue-Toastification__toast--success.my-custom-toast-class {
+        background-color: #212121;
+    }
+
+    /* Applied to the toast body when using regular strings as content */
+    .Vue-Toastification__toast-body.custom-class-1 {
+        font-size: 14px;
+    }
+
+    /* Applied to a wrapper div when using a custom component as content */
+    .Vue-Toastification__toast-component-body.custom-class-2 {
+        width: 100%;
+    }
+</style>
     </head>
     <body>
         <div id="app">
             <app/>
         </div>
+        <!-- Load Facebook SDK for JavaScript -->
+      
     </body>
 </html>

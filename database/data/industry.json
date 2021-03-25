@@ -1,0 +1,2897 @@
+[
+ {
+   "occupations": "accountant"
+ },
+ {
+   "occupations": "actor"
+ },
+ {
+   "occupations": "actuary"
+ },
+ {
+   "occupations": "adhesive bonding machine tender"
+ },
+ {
+   "occupations": "adjudicator"
+ },
+ {
+   "occupations": "administrative assistant"
+ },
+ {
+   "occupations": "administrative services manager"
+ },
+ {
+   "occupations": "adult education teacher"
+ },
+ {
+   "occupations": "advertising manager"
+ },
+ {
+   "occupations": "advertising sales agent"
+ },
+ {
+   "occupations": "aerobics instructor"
+ },
+ {
+   "occupations": "aerospace engineer"
+ },
+ {
+   "occupations": "aerospace engineering technician"
+ },
+ {
+   "occupations": "agent"
+ },
+ {
+   "occupations": "agricultural engineer"
+ },
+ {
+   "occupations": "agricultural equipment operator"
+ },
+ {
+   "occupations": "agricultural grader"
+ },
+ {
+   "occupations": "agricultural inspector"
+ },
+ {
+   "occupations": "agricultural manager"
+ },
+ {
+   "occupations": "agricultural sciences teacher"
+ },
+ {
+   "occupations": "agricultural sorter"
+ },
+ {
+   "occupations": "agricultural technician"
+ },
+ {
+   "occupations": "agricultural worker"
+ },
+ {
+   "occupations": "air conditioning installer"
+ },
+ {
+   "occupations": "air conditioning mechanic"
+ },
+ {
+   "occupations": "air traffic controller"
+ },
+ {
+   "occupations": "aircraft cargo handling supervisor"
+ },
+ {
+   "occupations": "aircraft mechanic"
+ },
+ {
+   "occupations": "aircraft service technician"
+ },
+ {
+   "occupations": "airline copilot"
+ },
+ {
+   "occupations": "airline pilot"
+ },
+ {
+   "occupations": "ambulance dispatcher"
+ },
+ {
+   "occupations": "ambulance driver"
+ },
+ {
+   "occupations": "amusement machine servicer"
+ },
+ {
+   "occupations": "anesthesiologist"
+ },
+ {
+   "occupations": "animal breeder"
+ },
+ {
+   "occupations": "animal control worker"
+ },
+ {
+   "occupations": "animal scientist"
+ },
+ {
+   "occupations": "animal trainer"
+ },
+ {
+   "occupations": "animator"
+ },
+ {
+   "occupations": "answering service operator"
+ },
+ {
+   "occupations": "anthropologist"
+ },
+ {
+   "occupations": "apparel patternmaker"
+ },
+ {
+   "occupations": "apparel worker"
+ },
+ {
+   "occupations": "arbitrator"
+ },
+ {
+   "occupations": "archeologist"
+ },
+ {
+   "occupations": "architect"
+ },
+ {
+   "occupations": "architectural drafter"
+ },
+ {
+   "occupations": "architectural manager"
+ },
+ {
+   "occupations": "archivist"
+ },
+ {
+   "occupations": "art director"
+ },
+ {
+   "occupations": "art teacher"
+ },
+ {
+   "occupations": "artist"
+ },
+ {
+   "occupations": "assembler"
+ },
+ {
+   "occupations": "astronomer"
+ },
+ {
+   "occupations": "athlete"
+ },
+ {
+   "occupations": "athletic trainer"
+ },
+ {
+   "occupations": "ATM machine repairer"
+ },
+ {
+   "occupations": "atmospheric scientist"
+ },
+ {
+   "occupations": "attendant"
+ },
+ {
+   "occupations": "audio and video equipment technician"
+ },
+ {
+   "occupations": "audio-visual and multimedia collections specialist"
+ },
+ {
+   "occupations": "audiologist"
+ },
+ {
+   "occupations": "auditor"
+ },
+ {
+   "occupations": "author"
+ },
+ {
+   "occupations": "auto damage insurance appraiser"
+ },
+ {
+   "occupations": "automotive and watercraft service attendant"
+ },
+ {
+   "occupations": "automotive glass installer"
+ },
+ {
+   "occupations": "automotive mechanic"
+ },
+ {
+   "occupations": "avionics technician"
+ },
+ {
+   "occupations": "baggage porter"
+ },
+ {
+   "occupations": "bailiff"
+ },
+ {
+   "occupations": "baker"
+ },
+ {
+   "occupations": "barback"
+ },
+ {
+   "occupations": "barber"
+ },
+ {
+   "occupations": "bartender"
+ },
+ {
+   "occupations": "basic education teacher"
+ },
+ {
+   "occupations": "behavioral disorder counselor"
+ },
+ {
+   "occupations": "bellhop"
+ },
+ {
+   "occupations": "bench carpenter"
+ },
+ {
+   "occupations": "bicycle repairer"
+ },
+ {
+   "occupations": "bill and account collector"
+ },
+ {
+   "occupations": "billing and posting clerk"
+ },
+ {
+   "occupations": "biochemist"
+ },
+ {
+   "occupations": "biological technician"
+ },
+ {
+   "occupations": "biomedical engineer"
+ },
+ {
+   "occupations": "biophysicist"
+ },
+ {
+   "occupations": "blaster"
+ },
+ {
+   "occupations": "blending machine operator"
+ },
+ {
+   "occupations": "blockmason"
+ },
+ {
+   "occupations": "boiler operator"
+ },
+ {
+   "occupations": "boilermaker"
+ },
+ {
+   "occupations": "bookkeeper"
+ },
+ {
+   "occupations": "boring machine tool tender"
+ },
+ {
+   "occupations": "brazer"
+ },
+ {
+   "occupations": "brickmason"
+ },
+ {
+   "occupations": "bridge and lock tender"
+ },
+ {
+   "occupations": "broadcast news analyst"
+ },
+ {
+   "occupations": "broadcast technician"
+ },
+ {
+   "occupations": "brokerage clerk"
+ },
+ {
+   "occupations": "budget analyst"
+ },
+ {
+   "occupations": "building inspector"
+ },
+ {
+   "occupations": "bus mechanic"
+ },
+ {
+   "occupations": "butcher"
+ },
+ {
+   "occupations": "buyer"
+ },
+ {
+   "occupations": "cabinetmaker"
+ },
+ {
+   "occupations": "cafeteria attendant"
+ },
+ {
+   "occupations": "cafeteria cook"
+ },
+ {
+   "occupations": "camera operator"
+ },
+ {
+   "occupations": "camera repairer"
+ },
+ {
+   "occupations": "cardiovascular technician"
+ },
+ {
+   "occupations": "cargo agent"
+ },
+ {
+   "occupations": "carpenter"
+ },
+ {
+   "occupations": "carpet installer"
+ },
+ {
+   "occupations": "cartographer"
+ },
+ {
+   "occupations": "cashier"
+ },
+ {
+   "occupations": "caster"
+ },
+ {
+   "occupations": "ceiling tile installer"
+ },
+ {
+   "occupations": "cellular equipment installer"
+ },
+ {
+   "occupations": "cement mason"
+ },
+ {
+   "occupations": "channeling machine operator"
+ },
+ {
+   "occupations": "chauffeur"
+ },
+ {
+   "occupations": "checker"
+ },
+ {
+   "occupations": "chef"
+ },
+ {
+   "occupations": "chemical engineer"
+ },
+ {
+   "occupations": "chemical plant operator"
+ },
+ {
+   "occupations": "chemist"
+ },
+ {
+   "occupations": "chemistry teacher"
+ },
+ {
+   "occupations": "chief executive"
+ },
+ {
+   "occupations": "child social worker"
+ },
+ {
+   "occupations": "childcare worker"
+ },
+ {
+   "occupations": "chiropractor"
+ },
+ {
+   "occupations": "choreographer"
+ },
+ {
+   "occupations": "civil drafter"
+ },
+ {
+   "occupations": "civil engineer"
+ },
+ {
+   "occupations": "civil engineering technician"
+ },
+ {
+   "occupations": "claims adjuster"
+ },
+ {
+   "occupations": "claims examiner"
+ },
+ {
+   "occupations": "claims investigator"
+ },
+ {
+   "occupations": "cleaner"
+ },
+ {
+   "occupations": "clinical laboratory technician"
+ },
+ {
+   "occupations": "clinical laboratory technologist"
+ },
+ {
+   "occupations": "clinical psychologist"
+ },
+ {
+   "occupations": "coating worker"
+ },
+ {
+   "occupations": "coatroom attendant"
+ },
+ {
+   "occupations": "coil finisher"
+ },
+ {
+   "occupations": "coil taper"
+ },
+ {
+   "occupations": "coil winder"
+ },
+ {
+   "occupations": "coin machine servicer"
+ },
+ {
+   "occupations": "commercial diver"
+ },
+ {
+   "occupations": "commercial pilot"
+ },
+ {
+   "occupations": "commodities sales agent"
+ },
+ {
+   "occupations": "communications equipment operator"
+ },
+ {
+   "occupations": "communications teacher"
+ },
+ {
+   "occupations": "community association manager"
+ },
+ {
+   "occupations": "community service manager"
+ },
+ {
+   "occupations": "compensation and benefits manager"
+ },
+ {
+   "occupations": "compliance officer"
+ },
+ {
+   "occupations": "composer"
+ },
+ {
+   "occupations": "computer hardware engineer"
+ },
+ {
+   "occupations": "computer network architect"
+ },
+ {
+   "occupations": "computer operator"
+ },
+ {
+   "occupations": "computer programmer"
+ },
+ {
+   "occupations": "computer science teacher"
+ },
+ {
+   "occupations": "computer support specialist"
+ },
+ {
+   "occupations": "computer systems administrator"
+ },
+ {
+   "occupations": "computer systems analyst"
+ },
+ {
+   "occupations": "concierge"
+ },
+ {
+   "occupations": "conciliator"
+ },
+ {
+   "occupations": "concrete finisher"
+ },
+ {
+   "occupations": "conservation science teacher"
+ },
+ {
+   "occupations": "conservation scientist"
+ },
+ {
+   "occupations": "conservation worker"
+ },
+ {
+   "occupations": "conservator"
+ },
+ {
+   "occupations": "construction inspector"
+ },
+ {
+   "occupations": "construction manager"
+ },
+ {
+   "occupations": "construction painter"
+ },
+ {
+   "occupations": "construction worker"
+ },
+ {
+   "occupations": "continuous mining machine operator"
+ },
+ {
+   "occupations": "convention planner"
+ },
+ {
+   "occupations": "conveyor operator"
+ },
+ {
+   "occupations": "cook"
+ },
+ {
+   "occupations": "cooling equipment operator"
+ },
+ {
+   "occupations": "copy marker"
+ },
+ {
+   "occupations": "correctional officer"
+ },
+ {
+   "occupations": "correctional treatment specialist"
+ },
+ {
+   "occupations": "correspondence clerk"
+ },
+ {
+   "occupations": "correspondent"
+ },
+ {
+   "occupations": "cosmetologist"
+ },
+ {
+   "occupations": "cost estimator"
+ },
+ {
+   "occupations": "costume attendant"
+ },
+ {
+   "occupations": "counseling psychologist"
+ },
+ {
+   "occupations": "counselor"
+ },
+ {
+   "occupations": "courier"
+ },
+ {
+   "occupations": "court reporter"
+ },
+ {
+   "occupations": "craft artist"
+ },
+ {
+   "occupations": "crane operator"
+ },
+ {
+   "occupations": "credit analyst"
+ },
+ {
+   "occupations": "credit checker"
+ },
+ {
+   "occupations": "credit counselor"
+ },
+ {
+   "occupations": "criminal investigator"
+ },
+ {
+   "occupations": "criminal justice teacher"
+ },
+ {
+   "occupations": "crossing guard"
+ },
+ {
+   "occupations": "curator"
+ },
+ {
+   "occupations": "custom sewer"
+ },
+ {
+   "occupations": "customer service representative"
+ },
+ {
+   "occupations": "cutter"
+ },
+ {
+   "occupations": "cutting machine operator"
+ },
+ {
+   "occupations": "dancer"
+ },
+ {
+   "occupations": "data entry keyer"
+ },
+ {
+   "occupations": "database administrator"
+ },
+ {
+   "occupations": "decorating worker"
+ },
+ {
+   "occupations": "delivery services driver"
+ },
+ {
+   "occupations": "demonstrator"
+ },
+ {
+   "occupations": "dental assistant"
+ },
+ {
+   "occupations": "dental hygienist"
+ },
+ {
+   "occupations": "dental laboratory technician"
+ },
+ {
+   "occupations": "dentist"
+ },
+ {
+   "occupations": "derrick operator"
+ },
+ {
+   "occupations": "designer"
+ },
+ {
+   "occupations": "desktop publisher"
+ },
+ {
+   "occupations": "detective"
+ },
+ {
+   "occupations": "diagnostic medical sonographer"
+ },
+ {
+   "occupations": "die maker"
+ },
+ {
+   "occupations": "diesel engine specialist"
+ },
+ {
+   "occupations": "dietetic technician"
+ },
+ {
+   "occupations": "dietitian"
+ },
+ {
+   "occupations": "dinkey operator"
+ },
+ {
+   "occupations": "director"
+ },
+ {
+   "occupations": "dishwasher"
+ },
+ {
+   "occupations": "dispatcher"
+ },
+ {
+   "occupations": "door-to-door sales worker"
+ },
+ {
+   "occupations": "drafter"
+ },
+ {
+   "occupations": "dragline operator"
+ },
+ {
+   "occupations": "drama teacher"
+ },
+ {
+   "occupations": "dredge operator"
+ },
+ {
+   "occupations": "dressing room attendant"
+ },
+ {
+   "occupations": "dressmaker"
+ },
+ {
+   "occupations": "drier operator"
+ },
+ {
+   "occupations": "drilling machine tool operator"
+ },
+ {
+   "occupations": "dry-cleaning worker"
+ },
+ {
+   "occupations": "drywall installer"
+ },
+ {
+   "occupations": "dyeing machine operator"
+ },
+ {
+   "occupations": "earth driller"
+ },
+ {
+   "occupations": "economics teacher"
+ },
+ {
+   "occupations": "economist"
+ },
+ {
+   "occupations": "editor"
+ },
+ {
+   "occupations": "education administrator"
+ },
+ {
+   "occupations": "electric motor repairer"
+ },
+ {
+   "occupations": "electrical electronics drafter"
+ },
+ {
+   "occupations": "electrical engineer"
+ },
+ {
+   "occupations": "electrical equipment assembler"
+ },
+ {
+   "occupations": "electrical installer"
+ },
+ {
+   "occupations": "electrical power-line installer"
+ },
+ {
+   "occupations": "electrician"
+ },
+ {
+   "occupations": "electro-mechanical technician"
+ },
+ {
+   "occupations": "elementary school teacher"
+ },
+ {
+   "occupations": "elevator installer"
+ },
+ {
+   "occupations": "elevator repairer"
+ },
+ {
+   "occupations": "embalmer"
+ },
+ {
+   "occupations": "emergency management director"
+ },
+ {
+   "occupations": "emergency medical technician"
+ },
+ {
+   "occupations": "engine assembler"
+ },
+ {
+   "occupations": "engineer"
+ },
+ {
+   "occupations": "engineering manager"
+ },
+ {
+   "occupations": "engineering teacher"
+ },
+ {
+   "occupations": "english language teacher"
+ },
+ {
+   "occupations": "engraver"
+ },
+ {
+   "occupations": "entertainment attendant"
+ },
+ {
+   "occupations": "environmental engineer"
+ },
+ {
+   "occupations": "environmental science teacher"
+ },
+ {
+   "occupations": "environmental scientist"
+ },
+ {
+   "occupations": "epidemiologist"
+ },
+ {
+   "occupations": "escort"
+ },
+ {
+   "occupations": "etcher"
+ },
+ {
+   "occupations": "event planner"
+ },
+ {
+   "occupations": "excavating operator"
+ },
+ {
+   "occupations": "executive administrative assistant"
+ },
+ {
+   "occupations": "executive secretary"
+ },
+ {
+   "occupations": "exhibit designer"
+ },
+ {
+   "occupations": "expediting clerk"
+ },
+ {
+   "occupations": "explosives worker"
+ },
+ {
+   "occupations": "extraction worker"
+ },
+ {
+   "occupations": "fabric mender"
+ },
+ {
+   "occupations": "fabric patternmaker"
+ },
+ {
+   "occupations": "fabricator"
+ },
+ {
+   "occupations": "faller"
+ },
+ {
+   "occupations": "family practitioner"
+ },
+ {
+   "occupations": "family social worker"
+ },
+ {
+   "occupations": "family therapist"
+ },
+ {
+   "occupations": "farm advisor"
+ },
+ {
+   "occupations": "farm equipment mechanic"
+ },
+ {
+   "occupations": "farm labor contractor"
+ },
+ {
+   "occupations": "farmer"
+ },
+ {
+   "occupations": "farmworker"
+ },
+ {
+   "occupations": "fashion designer"
+ },
+ {
+   "occupations": "fast food cook"
+ },
+ {
+   "occupations": "fence erector"
+ },
+ {
+   "occupations": "fiberglass fabricator"
+ },
+ {
+   "occupations": "fiberglass laminator"
+ },
+ {
+   "occupations": "file clerk"
+ },
+ {
+   "occupations": "filling machine operator"
+ },
+ {
+   "occupations": "film and video editor"
+ },
+ {
+   "occupations": "financial analyst"
+ },
+ {
+   "occupations": "financial examiner"
+ },
+ {
+   "occupations": "financial manager"
+ },
+ {
+   "occupations": "financial services sales agent"
+ },
+ {
+   "occupations": "fine artist"
+ },
+ {
+   "occupations": "fire alarm system installer"
+ },
+ {
+   "occupations": "fire dispatcher"
+ },
+ {
+   "occupations": "fire inspector"
+ },
+ {
+   "occupations": "fire investigator"
+ },
+ {
+   "occupations": "firefighter"
+ },
+ {
+   "occupations": "fish and game warden"
+ },
+ {
+   "occupations": "fish cutter"
+ },
+ {
+   "occupations": "fish trimmer"
+ },
+ {
+   "occupations": "fisher"
+ },
+ {
+   "occupations": "fitness studies teacher"
+ },
+ {
+   "occupations": "fitness trainer"
+ },
+ {
+   "occupations": "flight attendant"
+ },
+ {
+   "occupations": "floor finisher"
+ },
+ {
+   "occupations": "floor layer"
+ },
+ {
+   "occupations": "floor sander"
+ },
+ {
+   "occupations": "floral designer"
+ },
+ {
+   "occupations": "food batchmaker"
+ },
+ {
+   "occupations": "food cooking machine operator"
+ },
+ {
+   "occupations": "food preparation worker"
+ },
+ {
+   "occupations": "food science technician"
+ },
+ {
+   "occupations": "food scientist"
+ },
+ {
+   "occupations": "food server"
+ },
+ {
+   "occupations": "food service manager"
+ },
+ {
+   "occupations": "food technologist"
+ },
+ {
+   "occupations": "foreign language teacher"
+ },
+ {
+   "occupations": "foreign literature teacher"
+ },
+ {
+   "occupations": "forensic science technician"
+ },
+ {
+   "occupations": "forest fire inspector"
+ },
+ {
+   "occupations": "forest fire prevention specialist"
+ },
+ {
+   "occupations": "forest worker"
+ },
+ {
+   "occupations": "forester"
+ },
+ {
+   "occupations": "forestry teacher"
+ },
+ {
+   "occupations": "forging machine setter"
+ },
+ {
+   "occupations": "foundry coremaker"
+ },
+ {
+   "occupations": "freight agent"
+ },
+ {
+   "occupations": "freight mover"
+ },
+ {
+   "occupations": "fundraising manager"
+ },
+ {
+   "occupations": "funeral attendant"
+ },
+ {
+   "occupations": "funeral director"
+ },
+ {
+   "occupations": "funeral service manager"
+ },
+ {
+   "occupations": "furnace operator"
+ },
+ {
+   "occupations": "furnishings worker"
+ },
+ {
+   "occupations": "furniture finisher"
+ },
+ {
+   "occupations": "gaming booth cashier"
+ },
+ {
+   "occupations": "gaming cage worker"
+ },
+ {
+   "occupations": "gaming change person"
+ },
+ {
+   "occupations": "gaming dealer"
+ },
+ {
+   "occupations": "gaming investigator"
+ },
+ {
+   "occupations": "gaming manager"
+ },
+ {
+   "occupations": "gaming surveillance officer"
+ },
+ {
+   "occupations": "garment mender"
+ },
+ {
+   "occupations": "garment presser"
+ },
+ {
+   "occupations": "gas compressor"
+ },
+ {
+   "occupations": "gas plant operator"
+ },
+ {
+   "occupations": "gas pumping station operator"
+ },
+ {
+   "occupations": "general manager"
+ },
+ {
+   "occupations": "general practitioner"
+ },
+ {
+   "occupations": "geographer"
+ },
+ {
+   "occupations": "geography teacher"
+ },
+ {
+   "occupations": "geological engineer"
+ },
+ {
+   "occupations": "geological technician"
+ },
+ {
+   "occupations": "geoscientist"
+ },
+ {
+   "occupations": "glazier"
+ },
+ {
+   "occupations": "government program eligibility interviewer"
+ },
+ {
+   "occupations": "graduate teaching assistant"
+ },
+ {
+   "occupations": "graphic designer"
+ },
+ {
+   "occupations": "groundskeeper"
+ },
+ {
+   "occupations": "groundskeeping worker"
+ },
+ {
+   "occupations": "gynecologist"
+ },
+ {
+   "occupations": "hairdresser"
+ },
+ {
+   "occupations": "hairstylist"
+ },
+ {
+   "occupations": "hand grinding worker"
+ },
+ {
+   "occupations": "hand laborer"
+ },
+ {
+   "occupations": "hand packager"
+ },
+ {
+   "occupations": "hand packer"
+ },
+ {
+   "occupations": "hand polishing worker"
+ },
+ {
+   "occupations": "hand sewer"
+ },
+ {
+   "occupations": "hazardous materials removal worker"
+ },
+ {
+   "occupations": "head cook"
+ },
+ {
+   "occupations": "health and safety engineer"
+ },
+ {
+   "occupations": "health educator"
+ },
+ {
+   "occupations": "health information technician"
+ },
+ {
+   "occupations": "health services manager"
+ },
+ {
+   "occupations": "health specialties teacher"
+ },
+ {
+   "occupations": "healthcare social worker"
+ },
+ {
+   "occupations": "hearing officer"
+ },
+ {
+   "occupations": "heat treating equipment setter"
+ },
+ {
+   "occupations": "heating installer"
+ },
+ {
+   "occupations": "heating mechanic"
+ },
+ {
+   "occupations": "heavy truck driver"
+ },
+ {
+   "occupations": "highway maintenance worker"
+ },
+ {
+   "occupations": "historian"
+ },
+ {
+   "occupations": "history teacher"
+ },
+ {
+   "occupations": "hoist and winch operator"
+ },
+ {
+   "occupations": "home appliance repairer"
+ },
+ {
+   "occupations": "home economics teacher"
+ },
+ {
+   "occupations": "home entertainment installer"
+ },
+ {
+   "occupations": "home health aide"
+ },
+ {
+   "occupations": "home management advisor"
+ },
+ {
+   "occupations": "host"
+ },
+ {
+   "occupations": "hostess"
+ },
+ {
+   "occupations": "hostler"
+ },
+ {
+   "occupations": "hotel desk clerk"
+ },
+ {
+   "occupations": "housekeeping cleaner"
+ },
+ {
+   "occupations": "human resources assistant"
+ },
+ {
+   "occupations": "human resources manager"
+ },
+ {
+   "occupations": "human service assistant"
+ },
+ {
+   "occupations": "hunter"
+ },
+ {
+   "occupations": "hydrologist"
+ },
+ {
+   "occupations": "illustrator"
+ },
+ {
+   "occupations": "industrial designer"
+ },
+ {
+   "occupations": "industrial engineer"
+ },
+ {
+   "occupations": "industrial engineering technician"
+ },
+ {
+   "occupations": "industrial machinery mechanic"
+ },
+ {
+   "occupations": "industrial production manager"
+ },
+ {
+   "occupations": "industrial truck operator"
+ },
+ {
+   "occupations": "industrial-organizational psychologist"
+ },
+ {
+   "occupations": "information clerk"
+ },
+ {
+   "occupations": "information research scientist"
+ },
+ {
+   "occupations": "information security analyst"
+ },
+ {
+   "occupations": "information systems manager"
+ },
+ {
+   "occupations": "inspector"
+ },
+ {
+   "occupations": "instructional coordinator"
+ },
+ {
+   "occupations": "instructor"
+ },
+ {
+   "occupations": "insulation worker"
+ },
+ {
+   "occupations": "insurance claims clerk"
+ },
+ {
+   "occupations": "insurance sales agent"
+ },
+ {
+   "occupations": "insurance underwriter"
+ },
+ {
+   "occupations": "intercity bus driver"
+ },
+ {
+   "occupations": "interior designer"
+ },
+ {
+   "occupations": "internist"
+ },
+ {
+   "occupations": "interpreter"
+ },
+ {
+   "occupations": "interviewer"
+ },
+ {
+   "occupations": "investigator"
+ },
+ {
+   "occupations": "jailer"
+ },
+ {
+   "occupations": "janitor"
+ },
+ {
+   "occupations": "jeweler"
+ },
+ {
+   "occupations": "judge"
+ },
+ {
+   "occupations": "judicial law clerk"
+ },
+ {
+   "occupations": "kettle operator"
+ },
+ {
+   "occupations": "kiln operator"
+ },
+ {
+   "occupations": "kindergarten teacher"
+ },
+ {
+   "occupations": "laboratory animal caretaker"
+ },
+ {
+   "occupations": "landscape architect"
+ },
+ {
+   "occupations": "landscaping worker"
+ },
+ {
+   "occupations": "lathe setter"
+ },
+ {
+   "occupations": "laundry worker"
+ },
+ {
+   "occupations": "law enforcement teacher"
+ },
+ {
+   "occupations": "law teacher"
+ },
+ {
+   "occupations": "lawyer"
+ },
+ {
+   "occupations": "layout worker"
+ },
+ {
+   "occupations": "leather worker"
+ },
+ {
+   "occupations": "legal assistant"
+ },
+ {
+   "occupations": "legal secretary"
+ },
+ {
+   "occupations": "legislator"
+ },
+ {
+   "occupations": "librarian"
+ },
+ {
+   "occupations": "library assistant"
+ },
+ {
+   "occupations": "library science teacher"
+ },
+ {
+   "occupations": "library technician"
+ },
+ {
+   "occupations": "licensed practical nurse"
+ },
+ {
+   "occupations": "licensed vocational nurse"
+ },
+ {
+   "occupations": "life scientist"
+ },
+ {
+   "occupations": "lifeguard"
+ },
+ {
+   "occupations": "light truck driver"
+ },
+ {
+   "occupations": "line installer"
+ },
+ {
+   "occupations": "literacy teacher"
+ },
+ {
+   "occupations": "literature teacher"
+ },
+ {
+   "occupations": "loading machine operator"
+ },
+ {
+   "occupations": "loan clerk"
+ },
+ {
+   "occupations": "loan interviewer"
+ },
+ {
+   "occupations": "loan officer"
+ },
+ {
+   "occupations": "lobby attendant"
+ },
+ {
+   "occupations": "locker room attendant"
+ },
+ {
+   "occupations": "locksmith"
+ },
+ {
+   "occupations": "locomotive engineer"
+ },
+ {
+   "occupations": "locomotive firer"
+ },
+ {
+   "occupations": "lodging manager"
+ },
+ {
+   "occupations": "log grader"
+ },
+ {
+   "occupations": "logging equipment operator"
+ },
+ {
+   "occupations": "logistician"
+ },
+ {
+   "occupations": "machine feeder"
+ },
+ {
+   "occupations": "machinist"
+ },
+ {
+   "occupations": "magistrate judge"
+ },
+ {
+   "occupations": "magistrate"
+ },
+ {
+   "occupations": "maid"
+ },
+ {
+   "occupations": "mail clerk"
+ },
+ {
+   "occupations": "mail machine operator"
+ },
+ {
+   "occupations": "mail superintendent"
+ },
+ {
+   "occupations": "maintenance painter"
+ },
+ {
+   "occupations": "maintenance worker"
+ },
+ {
+   "occupations": "makeup artist"
+ },
+ {
+   "occupations": "management analyst"
+ },
+ {
+   "occupations": "manicurist"
+ },
+ {
+   "occupations": "manufactured building installer"
+ },
+ {
+   "occupations": "mapping technician"
+ },
+ {
+   "occupations": "marble setter"
+ },
+ {
+   "occupations": "marine engineer"
+ },
+ {
+   "occupations": "marine oiler"
+ },
+ {
+   "occupations": "market research analyst"
+ },
+ {
+   "occupations": "marketing manager"
+ },
+ {
+   "occupations": "marketing specialist"
+ },
+ {
+   "occupations": "marriage therapist"
+ },
+ {
+   "occupations": "massage therapist"
+ },
+ {
+   "occupations": "material mover"
+ },
+ {
+   "occupations": "materials engineer"
+ },
+ {
+   "occupations": "materials scientist"
+ },
+ {
+   "occupations": "mathematical science teacher"
+ },
+ {
+   "occupations": "mathematical technician"
+ },
+ {
+   "occupations": "mathematician"
+ },
+ {
+   "occupations": "maxillofacial surgeon"
+ },
+ {
+   "occupations": "measurer"
+ },
+ {
+   "occupations": "meat cutter"
+ },
+ {
+   "occupations": "meat packer"
+ },
+ {
+   "occupations": "meat trimmer"
+ },
+ {
+   "occupations": "mechanical door repairer"
+ },
+ {
+   "occupations": "mechanical drafter"
+ },
+ {
+   "occupations": "mechanical engineer"
+ },
+ {
+   "occupations": "mechanical engineering technician"
+ },
+ {
+   "occupations": "mediator"
+ },
+ {
+   "occupations": "medical appliance technician"
+ },
+ {
+   "occupations": "medical assistant"
+ },
+ {
+   "occupations": "medical equipment preparer"
+ },
+ {
+   "occupations": "medical equipment repairer"
+ },
+ {
+   "occupations": "medical laboratory technician"
+ },
+ {
+   "occupations": "medical laboratory technologist"
+ },
+ {
+   "occupations": "medical records technician"
+ },
+ {
+   "occupations": "medical scientist"
+ },
+ {
+   "occupations": "medical secretary"
+ },
+ {
+   "occupations": "medical services manager"
+ },
+ {
+   "occupations": "medical transcriptionist"
+ },
+ {
+   "occupations": "meeting planner"
+ },
+ {
+   "occupations": "mental health counselor"
+ },
+ {
+   "occupations": "mental health social worker"
+ },
+ {
+   "occupations": "merchandise displayer"
+ },
+ {
+   "occupations": "messenger"
+ },
+ {
+   "occupations": "metal caster"
+ },
+ {
+   "occupations": "metal patternmaker"
+ },
+ {
+   "occupations": "metal pickling operator"
+ },
+ {
+   "occupations": "metal pourer"
+ },
+ {
+   "occupations": "metal worker"
+ },
+ {
+   "occupations": "metal-refining furnace operator"
+ },
+ {
+   "occupations": "metal-refining furnace tender"
+ },
+ {
+   "occupations": "meter reader"
+ },
+ {
+   "occupations": "microbiologist"
+ },
+ {
+   "occupations": "middle school teacher"
+ },
+ {
+   "occupations": "milling machine setter"
+ },
+ {
+   "occupations": "millwright"
+ },
+ {
+   "occupations": "mine cutting machine operator"
+ },
+ {
+   "occupations": "mine shuttle car operator"
+ },
+ {
+   "occupations": "mining engineer"
+ },
+ {
+   "occupations": "mining safety engineer"
+ },
+ {
+   "occupations": "mining safety inspector"
+ },
+ {
+   "occupations": "mining service unit operator"
+ },
+ {
+   "occupations": "mixing machine setter"
+ },
+ {
+   "occupations": "mobile heavy equipment mechanic"
+ },
+ {
+   "occupations": "mobile home installer"
+ },
+ {
+   "occupations": "model maker"
+ },
+ {
+   "occupations": "model"
+ },
+ {
+   "occupations": "molder"
+ },
+ {
+   "occupations": "mortician"
+ },
+ {
+   "occupations": "motel desk clerk"
+ },
+ {
+   "occupations": "motion picture projectionist"
+ },
+ {
+   "occupations": "motorboat mechanic"
+ },
+ {
+   "occupations": "motorboat operator"
+ },
+ {
+   "occupations": "motorboat service technician"
+ },
+ {
+   "occupations": "motorcycle mechanic"
+ },
+ {
+   "occupations": "multimedia artist"
+ },
+ {
+   "occupations": "museum technician"
+ },
+ {
+   "occupations": "music director"
+ },
+ {
+   "occupations": "music teacher"
+ },
+ {
+   "occupations": "musical instrument repairer"
+ },
+ {
+   "occupations": "musician"
+ },
+ {
+   "occupations": "natural sciences manager"
+ },
+ {
+   "occupations": "naval architect"
+ },
+ {
+   "occupations": "network systems administrator"
+ },
+ {
+   "occupations": "new accounts clerk"
+ },
+ {
+   "occupations": "news vendor"
+ },
+ {
+   "occupations": "nonfarm animal caretaker"
+ },
+ {
+   "occupations": "nuclear engineer"
+ },
+ {
+   "occupations": "nuclear medicine technologist"
+ },
+ {
+   "occupations": "nuclear power reactor operator"
+ },
+ {
+   "occupations": "nuclear technician"
+ },
+ {
+   "occupations": "nursing aide"
+ },
+ {
+   "occupations": "nursing instructor"
+ },
+ {
+   "occupations": "nursing teacher"
+ },
+ {
+   "occupations": "nutritionist"
+ },
+ {
+   "occupations": "obstetrician"
+ },
+ {
+   "occupations": "occupational health and safety specialist"
+ },
+ {
+   "occupations": "occupational health and safety technician"
+ },
+ {
+   "occupations": "occupational therapist"
+ },
+ {
+   "occupations": "occupational therapy aide"
+ },
+ {
+   "occupations": "occupational therapy assistant"
+ },
+ {
+   "occupations": "offbearer"
+ },
+ {
+   "occupations": "office clerk"
+ },
+ {
+   "occupations": "office machine operator"
+ },
+ {
+   "occupations": "operating engineer"
+ },
+ {
+   "occupations": "operations manager"
+ },
+ {
+   "occupations": "operations research analyst"
+ },
+ {
+   "occupations": "ophthalmic laboratory technician"
+ },
+ {
+   "occupations": "optician"
+ },
+ {
+   "occupations": "optometrist"
+ },
+ {
+   "occupations": "oral surgeon"
+ },
+ {
+   "occupations": "order clerk"
+ },
+ {
+   "occupations": "order filler"
+ },
+ {
+   "occupations": "orderly"
+ },
+ {
+   "occupations": "ordnance handling expert"
+ },
+ {
+   "occupations": "orthodontist"
+ },
+ {
+   "occupations": "orthotist"
+ },
+ {
+   "occupations": "outdoor power equipment mechanic"
+ },
+ {
+   "occupations": "oven operator"
+ },
+ {
+   "occupations": "packaging machine operator"
+ },
+ {
+   "occupations": "painter "
+ },
+ {
+   "occupations": "painting worker"
+ },
+ {
+   "occupations": "paper goods machine setter"
+ },
+ {
+   "occupations": "paperhanger"
+ },
+ {
+   "occupations": "paralegal"
+ },
+ {
+   "occupations": "paramedic"
+ },
+ {
+   "occupations": "parking enforcement worker"
+ },
+ {
+   "occupations": "parking lot attendant"
+ },
+ {
+   "occupations": "parts salesperson"
+ },
+ {
+   "occupations": "paving equipment operator"
+ },
+ {
+   "occupations": "payroll clerk"
+ },
+ {
+   "occupations": "pediatrician"
+ },
+ {
+   "occupations": "pedicurist"
+ },
+ {
+   "occupations": "personal care aide"
+ },
+ {
+   "occupations": "personal chef"
+ },
+ {
+   "occupations": "personal financial advisor"
+ },
+ {
+   "occupations": "pest control worker"
+ },
+ {
+   "occupations": "pesticide applicator"
+ },
+ {
+   "occupations": "pesticide handler"
+ },
+ {
+   "occupations": "pesticide sprayer"
+ },
+ {
+   "occupations": "petroleum engineer"
+ },
+ {
+   "occupations": "petroleum gauger"
+ },
+ {
+   "occupations": "petroleum pump system operator"
+ },
+ {
+   "occupations": "petroleum refinery operator"
+ },
+ {
+   "occupations": "petroleum technician"
+ },
+ {
+   "occupations": "pharmacist"
+ },
+ {
+   "occupations": "pharmacy aide"
+ },
+ {
+   "occupations": "pharmacy technician"
+ },
+ {
+   "occupations": "philosophy teacher"
+ },
+ {
+   "occupations": "photogrammetrist"
+ },
+ {
+   "occupations": "photographer"
+ },
+ {
+   "occupations": "photographic process worker"
+ },
+ {
+   "occupations": "photographic processing machine operator"
+ },
+ {
+   "occupations": "physical therapist aide"
+ },
+ {
+   "occupations": "physical therapist assistant"
+ },
+ {
+   "occupations": "physical therapist"
+ },
+ {
+   "occupations": "physician assistant"
+ },
+ {
+   "occupations": "physician"
+ },
+ {
+   "occupations": "physicist"
+ },
+ {
+   "occupations": "physics teacher"
+ },
+ {
+   "occupations": "pile-driver operator"
+ },
+ {
+   "occupations": "pipefitter"
+ },
+ {
+   "occupations": "pipelayer"
+ },
+ {
+   "occupations": "planing machine operator"
+ },
+ {
+   "occupations": "planning clerk"
+ },
+ {
+   "occupations": "plant operator"
+ },
+ {
+   "occupations": "plant scientist"
+ },
+ {
+   "occupations": "plasterer"
+ },
+ {
+   "occupations": "plastic patternmaker"
+ },
+ {
+   "occupations": "plastic worker"
+ },
+ {
+   "occupations": "plumber"
+ },
+ {
+   "occupations": "podiatrist"
+ },
+ {
+   "occupations": "police dispatcher"
+ },
+ {
+   "occupations": "police officer"
+ },
+ {
+   "occupations": "policy processing clerk"
+ },
+ {
+   "occupations": "political science teacher"
+ },
+ {
+   "occupations": "political scientist"
+ },
+ {
+   "occupations": "postal service clerk"
+ },
+ {
+   "occupations": "postal service mail carrier"
+ },
+ {
+   "occupations": "postal service mail processing machine operator"
+ },
+ {
+   "occupations": "postal service mail processor"
+ },
+ {
+   "occupations": "postal service mail sorter"
+ },
+ {
+   "occupations": "postmaster"
+ },
+ {
+   "occupations": "postsecondary teacher"
+ },
+ {
+   "occupations": "poultry cutter"
+ },
+ {
+   "occupations": "poultry trimmer"
+ },
+ {
+   "occupations": "power dispatcher"
+ },
+ {
+   "occupations": "power distributor"
+ },
+ {
+   "occupations": "power plant operator"
+ },
+ {
+   "occupations": "power tool repairer"
+ },
+ {
+   "occupations": "precious stone worker"
+ },
+ {
+   "occupations": "precision instrument repairer"
+ },
+ {
+   "occupations": "prepress technician"
+ },
+ {
+   "occupations": "preschool teacher"
+ },
+ {
+   "occupations": "priest"
+ },
+ {
+   "occupations": "print binding worker"
+ },
+ {
+   "occupations": "printing press operator"
+ },
+ {
+   "occupations": "private detective"
+ },
+ {
+   "occupations": "probation officer"
+ },
+ {
+   "occupations": "procurement clerk"
+ },
+ {
+   "occupations": "producer"
+ },
+ {
+   "occupations": "product promoter"
+ },
+ {
+   "occupations": "production clerk"
+ },
+ {
+   "occupations": "production occupation"
+ },
+ {
+   "occupations": "proofreader"
+ },
+ {
+   "occupations": "property manager"
+ },
+ {
+   "occupations": "prosthetist"
+ },
+ {
+   "occupations": "prosthodontist"
+ },
+ {
+   "occupations": "psychiatric aide"
+ },
+ {
+   "occupations": "psychiatric technician"
+ },
+ {
+   "occupations": "psychiatrist"
+ },
+ {
+   "occupations": "psychologist"
+ },
+ {
+   "occupations": "psychology teacher"
+ },
+ {
+   "occupations": "public relations manager"
+ },
+ {
+   "occupations": "public relations specialist"
+ },
+ {
+   "occupations": "pump operator"
+ },
+ {
+   "occupations": "purchasing agent"
+ },
+ {
+   "occupations": "purchasing manager"
+ },
+ {
+   "occupations": "radiation therapist"
+ },
+ {
+   "occupations": "radio announcer"
+ },
+ {
+   "occupations": "radio equipment installer"
+ },
+ {
+   "occupations": "radio operator"
+ },
+ {
+   "occupations": "radiologic technician"
+ },
+ {
+   "occupations": "radiologic technologist"
+ },
+ {
+   "occupations": "rail car repairer"
+ },
+ {
+   "occupations": "rail transportation worker"
+ },
+ {
+   "occupations": "rail yard engineer"
+ },
+ {
+   "occupations": "rail-track laying equipment operator"
+ },
+ {
+   "occupations": "railroad brake operator"
+ },
+ {
+   "occupations": "railroad conductor"
+ },
+ {
+   "occupations": "railroad police"
+ },
+ {
+   "occupations": "rancher"
+ },
+ {
+   "occupations": "real estate appraiser"
+ },
+ {
+   "occupations": "real estate broker"
+ },
+ {
+   "occupations": "real estate manager"
+ },
+ {
+   "occupations": "real estate sales agent"
+ },
+ {
+   "occupations": "receiving clerk"
+ },
+ {
+   "occupations": "receptionist"
+ },
+ {
+   "occupations": "record clerk"
+ },
+ {
+   "occupations": "recreation teacher"
+ },
+ {
+   "occupations": "recreation worker"
+ },
+ {
+   "occupations": "recreational therapist"
+ },
+ {
+   "occupations": "recreational vehicle service technician"
+ },
+ {
+   "occupations": "recyclable material collector"
+ },
+ {
+   "occupations": "referee"
+ },
+ {
+   "occupations": "refractory materials repairer"
+ },
+ {
+   "occupations": "refrigeration installer"
+ },
+ {
+   "occupations": "refrigeration mechanic"
+ },
+ {
+   "occupations": "refuse collector"
+ },
+ {
+   "occupations": "regional planner"
+ },
+ {
+   "occupations": "registered nurse"
+ },
+ {
+   "occupations": "rehabilitation counselor"
+ },
+ {
+   "occupations": "reinforcing iron worker"
+ },
+ {
+   "occupations": "reinforcing rebar worker"
+ },
+ {
+   "occupations": "religion teacher"
+ },
+ {
+   "occupations": "religious activities director"
+ },
+ {
+   "occupations": "religious worker"
+ },
+ {
+   "occupations": "rental clerk"
+ },
+ {
+   "occupations": "repair worker"
+ },
+ {
+   "occupations": "reporter"
+ },
+ {
+   "occupations": "residential advisor"
+ },
+ {
+   "occupations": "resort desk clerk"
+ },
+ {
+   "occupations": "respiratory therapist"
+ },
+ {
+   "occupations": "respiratory therapy technician"
+ },
+ {
+   "occupations": "retail buyer"
+ },
+ {
+   "occupations": "retail salesperson"
+ },
+ {
+   "occupations": "revenue agent"
+ },
+ {
+   "occupations": "rigger"
+ },
+ {
+   "occupations": "rock splitter"
+ },
+ {
+   "occupations": "rolling machine tender"
+ },
+ {
+   "occupations": "roof bolter"
+ },
+ {
+   "occupations": "roofer"
+ },
+ {
+   "occupations": "rotary drill operator"
+ },
+ {
+   "occupations": "roustabout"
+ },
+ {
+   "occupations": "safe repairer"
+ },
+ {
+   "occupations": "sailor"
+ },
+ {
+   "occupations": "sales engineer"
+ },
+ {
+   "occupations": "sales manager"
+ },
+ {
+   "occupations": "sales representative"
+ },
+ {
+   "occupations": "sampler"
+ },
+ {
+   "occupations": "sawing machine operator"
+ },
+ {
+   "occupations": "scaler"
+ },
+ {
+   "occupations": "school bus driver"
+ },
+ {
+   "occupations": "school psychologist"
+ },
+ {
+   "occupations": "school social worker"
+ },
+ {
+   "occupations": "scout leader"
+ },
+ {
+   "occupations": "sculptor"
+ },
+ {
+   "occupations": "secondary education teacher"
+ },
+ {
+   "occupations": "secondary school teacher"
+ },
+ {
+   "occupations": "secretary"
+ },
+ {
+   "occupations": "securities sales agent"
+ },
+ {
+   "occupations": "security guard"
+ },
+ {
+   "occupations": "security system installer"
+ },
+ {
+   "occupations": "segmental paver"
+ },
+ {
+   "occupations": "self-enrichment education teacher"
+ },
+ {
+   "occupations": "semiconductor processor"
+ },
+ {
+   "occupations": "septic tank servicer"
+ },
+ {
+   "occupations": "set designer"
+ },
+ {
+   "occupations": "sewer pipe cleaner"
+ },
+ {
+   "occupations": "sewing machine operator"
+ },
+ {
+   "occupations": "shampooer"
+ },
+ {
+   "occupations": "shaper"
+ },
+ {
+   "occupations": "sheet metal worker"
+ },
+ {
+   "occupations": "sheriff's patrol officer"
+ },
+ {
+   "occupations": "ship captain"
+ },
+ {
+   "occupations": "ship engineer"
+ },
+ {
+   "occupations": "ship loader"
+ },
+ {
+   "occupations": "shipmate"
+ },
+ {
+   "occupations": "shipping clerk"
+ },
+ {
+   "occupations": "shoe machine operator"
+ },
+ {
+   "occupations": "shoe worker"
+ },
+ {
+   "occupations": "short order cook"
+ },
+ {
+   "occupations": "signal operator"
+ },
+ {
+   "occupations": "signal repairer"
+ },
+ {
+   "occupations": "singer"
+ },
+ {
+   "occupations": "ski patrol"
+ },
+ {
+   "occupations": "skincare specialist"
+ },
+ {
+   "occupations": "slaughterer"
+ },
+ {
+   "occupations": "slicing machine tender"
+ },
+ {
+   "occupations": "slot supervisor"
+ },
+ {
+   "occupations": "social science research assistant"
+ },
+ {
+   "occupations": "social sciences teacher"
+ },
+ {
+   "occupations": "social scientist"
+ },
+ {
+   "occupations": "social service assistant"
+ },
+ {
+   "occupations": "social service manager"
+ },
+ {
+   "occupations": "social work teacher"
+ },
+ {
+   "occupations": "social worker"
+ },
+ {
+   "occupations": "sociologist"
+ },
+ {
+   "occupations": "sociology teacher"
+ },
+ {
+   "occupations": "software developer"
+ },
+ {
+   "occupations": "software engineer"
+ },
+ {
+   "occupations": "soil scientist"
+ },
+ {
+   "occupations": "solderer"
+ },
+ {
+   "occupations": "sorter"
+ },
+ {
+   "occupations": "sound engineering technician"
+ },
+ {
+   "occupations": "space scientist"
+ },
+ {
+   "occupations": "special education teacher"
+ },
+ {
+   "occupations": "speech-language pathologist"
+ },
+ {
+   "occupations": "sports book runner"
+ },
+ {
+   "occupations": "sports entertainer"
+ },
+ {
+   "occupations": "sports performer"
+ },
+ {
+   "occupations": "stationary engineer"
+ },
+ {
+   "occupations": "statistical assistant"
+ },
+ {
+   "occupations": "statistician"
+ },
+ {
+   "occupations": "steamfitter"
+ },
+ {
+   "occupations": "stock clerk"
+ },
+ {
+   "occupations": "stock mover"
+ },
+ {
+   "occupations": "stonemason"
+ },
+ {
+   "occupations": "street vendor"
+ },
+ {
+   "occupations": "streetcar operator"
+ },
+ {
+   "occupations": "structural iron worker"
+ },
+ {
+   "occupations": "structural metal fabricator"
+ },
+ {
+   "occupations": "structural metal fitter"
+ },
+ {
+   "occupations": "structural steel worker"
+ },
+ {
+   "occupations": "stucco mason"
+ },
+ {
+   "occupations": "substance abuse counselor"
+ },
+ {
+   "occupations": "substance abuse social worker"
+ },
+ {
+   "occupations": "subway operator"
+ },
+ {
+   "occupations": "surfacing equipment operator"
+ },
+ {
+   "occupations": "surgeon"
+ },
+ {
+   "occupations": "surgical technologist"
+ },
+ {
+   "occupations": "survey researcher"
+ },
+ {
+   "occupations": "surveying technician"
+ },
+ {
+   "occupations": "surveyor"
+ },
+ {
+   "occupations": "switch operator"
+ },
+ {
+   "occupations": "switchboard operator"
+ },
+ {
+   "occupations": "tailor"
+ },
+ {
+   "occupations": "tamping equipment operator"
+ },
+ {
+   "occupations": "tank car loader"
+ },
+ {
+   "occupations": "taper"
+ },
+ {
+   "occupations": "tax collector"
+ },
+ {
+   "occupations": "tax examiner"
+ },
+ {
+   "occupations": "tax preparer"
+ },
+ {
+   "occupations": "taxi driver"
+ },
+ {
+   "occupations": "teacher assistant"
+ },
+ {
+   "occupations": "teacher"
+ },
+ {
+   "occupations": "team assembler"
+ },
+ {
+   "occupations": "technical writer"
+ },
+ {
+   "occupations": "telecommunications equipment installer"
+ },
+ {
+   "occupations": "telemarketer"
+ },
+ {
+   "occupations": "telephone operator"
+ },
+ {
+   "occupations": "television announcer"
+ },
+ {
+   "occupations": "teller"
+ },
+ {
+   "occupations": "terrazzo finisher"
+ },
+ {
+   "occupations": "terrazzo worker"
+ },
+ {
+   "occupations": "tester"
+ },
+ {
+   "occupations": "textile bleaching operator"
+ },
+ {
+   "occupations": "textile cutting machine setter"
+ },
+ {
+   "occupations": "textile knitting machine setter"
+ },
+ {
+   "occupations": "textile presser"
+ },
+ {
+   "occupations": "textile worker"
+ },
+ {
+   "occupations": "therapist"
+ },
+ {
+   "occupations": "ticket agent"
+ },
+ {
+   "occupations": "ticket taker"
+ },
+ {
+   "occupations": "tile setter"
+ },
+ {
+   "occupations": "timekeeping clerk"
+ },
+ {
+   "occupations": "timing device assembler"
+ },
+ {
+   "occupations": "tire builder"
+ },
+ {
+   "occupations": "tire changer"
+ },
+ {
+   "occupations": "tire repairer"
+ },
+ {
+   "occupations": "title abstractor"
+ },
+ {
+   "occupations": "title examiner"
+ },
+ {
+   "occupations": "title searcher"
+ },
+ {
+   "occupations": "tobacco roasting machine operator"
+ },
+ {
+   "occupations": "tool filer"
+ },
+ {
+   "occupations": "tool grinder"
+ },
+ {
+   "occupations": "tool maker"
+ },
+ {
+   "occupations": "tool sharpener"
+ },
+ {
+   "occupations": "tour guide"
+ },
+ {
+   "occupations": "tower equipment installer"
+ },
+ {
+   "occupations": "tower operator"
+ },
+ {
+   "occupations": "track switch repairer"
+ },
+ {
+   "occupations": "tractor operator"
+ },
+ {
+   "occupations": "tractor-trailer truck driver"
+ },
+ {
+   "occupations": "traffic clerk"
+ },
+ {
+   "occupations": "traffic technician"
+ },
+ {
+   "occupations": "training and development manager"
+ },
+ {
+   "occupations": "training and development specialist"
+ },
+ {
+   "occupations": "transit police"
+ },
+ {
+   "occupations": "translator"
+ },
+ {
+   "occupations": "transportation equipment painter"
+ },
+ {
+   "occupations": "transportation inspector"
+ },
+ {
+   "occupations": "transportation security screener"
+ },
+ {
+   "occupations": "transportation worker"
+ },
+ {
+   "occupations": "trapper"
+ },
+ {
+   "occupations": "travel agent"
+ },
+ {
+   "occupations": "travel clerk"
+ },
+ {
+   "occupations": "travel guide"
+ },
+ {
+   "occupations": "tree pruner"
+ },
+ {
+   "occupations": "tree trimmer"
+ },
+ {
+   "occupations": "trimmer"
+ },
+ {
+   "occupations": "truck loader"
+ },
+ {
+   "occupations": "truck mechanic"
+ },
+ {
+   "occupations": "tuner"
+ },
+ {
+   "occupations": "turning machine tool operator"
+ },
+ {
+   "occupations": "typist"
+ },
+ {
+   "occupations": "umpire"
+ },
+ {
+   "occupations": "undertaker"
+ },
+ {
+   "occupations": "upholsterer"
+ },
+ {
+   "occupations": "urban planner"
+ },
+ {
+   "occupations": "usher"
+ },
+ {
+   "occupations": "valve installer"
+ },
+ {
+   "occupations": "vending machine servicer"
+ },
+ {
+   "occupations": "veterinarian"
+ },
+ {
+   "occupations": "veterinary assistant"
+ },
+ {
+   "occupations": "veterinary technician"
+ },
+ {
+   "occupations": "vocational counselor"
+ },
+ {
+   "occupations": "vocational education teacher"
+ },
+ {
+   "occupations": "waiter"
+ },
+ {
+   "occupations": "waitress"
+ },
+ {
+   "occupations": "watch repairer"
+ },
+ {
+   "occupations": "water treatment plant operator"
+ },
+ {
+   "occupations": "weaving machine setter"
+ },
+ {
+   "occupations": "web developer"
+ },
+ {
+   "occupations": "weigher"
+ },
+ {
+   "occupations": "welder"
+ },
+ {
+   "occupations": "wellhead pumper"
+ },
+ {
+   "occupations": "wholesale buyer"
+ },
+ {
+   "occupations": "wildlife biologist"
+ },
+ {
+   "occupations": "window trimmer"
+ },
+ {
+   "occupations": "wood patternmaker"
+ },
+ {
+   "occupations": "woodworker"
+ },
+ {
+   "occupations": "word processor"
+ },
+ {
+   "occupations": "writer"
+ },
+ {
+   "occupations": "yardmaster"
+ },
+ {
+   "occupations": "zoologist"
+ }
+]

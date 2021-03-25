@@ -10,7 +10,7 @@ import ResetPasswordForm from './components/page/ResetPasswordForm';
 import ResetEmailForm from './components/page/ResetEmailForm';
 
 
-import ProfileComponent from './components/alumni/ProfileComponent'; 
+import ProfileComponent from './components/user/profile/ProfileComponent'; 
 import EventComponent from './components/alumni/EventComponent'; 
 import PeopleComponent from './components/alumni/PeopleComponent'; 
 import LiveFeedComponent from './components/alumni/LiveFeedComponent'; 
@@ -19,6 +19,9 @@ import CareerComponent from './components/alumni/CareerComponent';
 //home Componenent
 import HomeComponent from './components/home/HomeComponent'; 
 import UserComponent from './components/user/UserComponent'; 
+import UserProfileComponent from './components/user/profile/UserProfileComponent'; 
+import EditProfileComponent from './components/user/profile/EditProfileComponent'; 
+
 
 Vue.use(VueRouter);
 
@@ -136,12 +139,7 @@ const routes =[
             //Admin Routes
             
               
-                {
-                    path: 'profile',
-                    beforeEnter: isUser,
-                    component: ProfileComponent,
-                    name: 'Profile' 
-                },
+               
                 {
                     path: 'event',
                     component: EventComponent,
@@ -164,6 +162,40 @@ const routes =[
                     name: 'career' 
                 },
         ]
+        
+    },
+    {
+        path: '/user',
+       
+        name: 'UserProfile', 
+        beforeEnter: (to, from, next) => {
+            if (localStorage.getItem('token')) {
+                next();
+            } else {
+    localStorage.removeItem('token');
+    localStorage.removeItem('token','user','loggedIn');
+    localStorage.removeItem('loggedIn');
+    localStorage.removeItem('user');
+    next('/login');
+            }
+        }, 
+        component: UserProfileComponent,
+        children: [
+            //Admin Routes
+            
+              
+                {
+                    path: 'profile', 
+                    component: ProfileComponent,
+                    name: 'Profile' 
+                },
+                {
+                    path: 'edit-profile', 
+                    beforeEnter: isUser,
+                    component: EditProfileComponent,
+                    name: 'Edit-Profile' 
+                },
+            ],
         
     },
     

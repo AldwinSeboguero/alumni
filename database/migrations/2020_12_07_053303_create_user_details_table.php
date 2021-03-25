@@ -22,7 +22,8 @@ class CreateUserDetailsTable extends Migration
             $table->foreign('h_batch_year_id')->references('id')->on('h_batch_years');
             $table->biginteger('c_batch_year_id')->unsigned()->nullable();
             $table->foreign('c_batch_year_id')->references('id')->on('c_batch_years');
-          
+            $table->biginteger('user_id')->unsigned();
+            $table->foreign('user_id')->references('id')->on('users');
             $table->timestamps();
         });
     }

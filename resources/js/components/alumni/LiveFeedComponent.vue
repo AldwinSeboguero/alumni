@@ -14,17 +14,17 @@
          
       </v-list-item>
     </v-list> -->
-    <v-sheet dark>
+    <v-sheet dark  height="100%">
       <v-container>
         <v-row >
           <v-col cols="12" sm="12" md="10" offset-md="1">
             <v-sheet rounded="lg" min-height="268" >
               <v-row color="#18191a">
-                <v-col cols="12" sm="12" style="padding-top: 0" >
+                <v-col cols="12" sm="12" style="padding-top: 0">
                   <v-card-title class="primary--text">News Feed</v-card-title>
                   <v-sheet elevation="0" class="1">
                     <div>
-                      <v-row no-gutters  style="background-color:#18191a;">
+                      <!-- <v-row no-gutters  style="background-color:#18191a;">
                         <v-col cols="3" sm="3">
                           <v-card class="pa-2 text-center" outlined tile>
                             <div>
@@ -69,13 +69,16 @@
                             </div>
                           </v-card>
                         </v-col>
+                      </v-row> -->
+                      <v-row justify="center" align="center">
+                        <h2 class="overline"> No Post to Display!</h2>
                       </v-row>
                     </div>
                   </v-sheet>
                 </v-col>
               </v-row>
 
-              <v-row color="#18191a">
+              <!-- <v-row color="#18191a">
                 <v-col cols="12" style="padding-top: 0" v-for="n in 4" :key="n">
                   <v-sheet elevation="0" class="1">
                     <v-card  class="mx-auto rounded-lg grey darken-4" dark  elevation="1">
@@ -117,7 +120,7 @@
                     </v-card>
                   </v-sheet>
                 </v-col>
-              </v-row>
+              </v-row> -->
             </v-sheet>
           </v-col>
          
