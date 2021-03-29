@@ -831,6 +831,8 @@ class ComposerStaticInit3b0dc7fe70945d6d83e59103dd05c7b9
     );
 
     public static $classMap = array (
+        'Admin' => __DIR__ . '/../..' . '/database/seeds/Admin.php',
+        'AlumniDirector' => __DIR__ . '/../..' . '/database/seeds/AlumniDirector.php',
         'App\\Batch' => __DIR__ . '/../..' . '/app/Batch.php',
         'App\\Campus' => __DIR__ . '/../..' . '/app/Campus.php',
         'App\\ChangePassword' => __DIR__ . '/../..' . '/app/ChangePassword.php',
@@ -845,6 +847,7 @@ class ComposerStaticInit3b0dc7fe70945d6d83e59103dd05c7b9
         'App\\Http\\Controllers\\Admin\\ActivationController' => __DIR__ . '/../..' . '/app/Http/Controllers/Admin/ActivationController.php',
         'App\\Http\\Controllers\\Admin\\ActiveClearanceController' => __DIR__ . '/../..' . '/app/Http/Controllers/Admin/ActiveClearanceController.php',
         'App\\Http\\Controllers\\Admin\\AdminController' => __DIR__ . '/../..' . '/app/Http/Controllers/Admin/AdminController.php',
+        'App\\Http\\Controllers\\Admin\\AlumniController' => __DIR__ . '/../..' . '/app/Http/Controllers/Admin/AlumniController.php',
         'App\\Http\\Controllers\\Admin\\AuthController' => __DIR__ . '/../..' . '/app/Http/Controllers/Admin/AuthController.php',
         'App\\Http\\Controllers\\Admin\\CASClearanceController' => __DIR__ . '/../..' . '/app/Http/Controllers/Admin/CASClearanceController.php',
         'App\\Http\\Controllers\\Admin\\CBMClearanceController' => __DIR__ . '/../..' . '/app/Http/Controllers/Admin/CBMClearanceController.php',
@@ -908,6 +911,8 @@ class ComposerStaticInit3b0dc7fe70945d6d83e59103dd05c7b9
         'App\\Http\\Middleware\\VerifyCsrfToken' => __DIR__ . '/../..' . '/app/Http/Middleware/VerifyCsrfToken.php',
         'App\\Http\\Resources\\ActiveClearance' => __DIR__ . '/../..' . '/app/Http/Resources/ActiveClearance.php',
         'App\\Http\\Resources\\ActiveClearanceCollection' => __DIR__ . '/../..' . '/app/Http/Resources/ActiveClearanceCollection.php',
+        'App\\Http\\Resources\\Admin\\Alumni' => __DIR__ . '/../..' . '/app/Http/Resources/Admin/Alumni.php',
+        'App\\Http\\Resources\\Admin\\AlumniCollection' => __DIR__ . '/../..' . '/app/Http/Resources/Admin/AlumniCollection.php',
         'App\\Http\\Resources\\Cashier' => __DIR__ . '/../..' . '/app/Http/Resources/Cashier.php',
         'App\\Http\\Resources\\CashierCollection' => __DIR__ . '/../..' . '/app/Http/Resources/CashierCollection.php',
         'App\\Http\\Resources\\Clearance' => __DIR__ . '/../..' . '/app/Http/Resources/Clearance.php',
@@ -934,8 +939,11 @@ class ComposerStaticInit3b0dc7fe70945d6d83e59103dd05c7b9
         'App\\Http\\Resources\\SubmittedClearanceCollection' => __DIR__ . '/../..' . '/app/Http/Resources/SubmittedClearanceCollection.php',
         'App\\Http\\Resources\\User' => __DIR__ . '/../..' . '/app/Http/Resources/User.php',
         'App\\Http\\Resources\\UserCollection' => __DIR__ . '/../..' . '/app/Http/Resources/UserCollection.php',
+        'App\\Http\\Resources\\User\\Profile\\WorkExperience' => __DIR__ . '/../..' . '/app/Http/Resources/User/Profile/WorkExperience.php',
+        'App\\Http\\Resources\\User\\Profile\\WorkExperienceCollection' => __DIR__ . '/../..' . '/app/Http/Resources/User/Profile/WorkExperienceCollection.php',
         'App\\Imports\\StudentsImport' => __DIR__ . '/../..' . '/app/Imports/StudentsImport.php',
         'App\\IsActivated' => __DIR__ . '/../..' . '/app/IsActivated.php',
+        'App\\Models\\Admin\\Alumni' => __DIR__ . '/../..' . '/app/Models/Admin/Alumni.php',
         'App\\Models\\Industry' => __DIR__ . '/../..' . '/app/Models/Industry.php',
         'App\\Models\\Skill' => __DIR__ . '/../..' . '/app/Models/Skill.php',
         'App\\Models\\User\\UserContact' => __DIR__ . '/../..' . '/app/Models/User/UserContact.php',

@@ -6,6 +6,8 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Admin' => $baseDir . '/database/seeds/Admin.php',
+    'AlumniDirector' => $baseDir . '/database/seeds/AlumniDirector.php',
     'App\\Batch' => $baseDir . '/app/Batch.php',
     'App\\Campus' => $baseDir . '/app/Campus.php',
     'App\\ChangePassword' => $baseDir . '/app/ChangePassword.php',
@@ -20,6 +22,7 @@ return array(
     'App\\Http\\Controllers\\Admin\\ActivationController' => $baseDir . '/app/Http/Controllers/Admin/ActivationController.php',
     'App\\Http\\Controllers\\Admin\\ActiveClearanceController' => $baseDir . '/app/Http/Controllers/Admin/ActiveClearanceController.php',
     'App\\Http\\Controllers\\Admin\\AdminController' => $baseDir . '/app/Http/Controllers/Admin/AdminController.php',
+    'App\\Http\\Controllers\\Admin\\AlumniController' => $baseDir . '/app/Http/Controllers/Admin/AlumniController.php',
     'App\\Http\\Controllers\\Admin\\AuthController' => $baseDir . '/app/Http/Controllers/Admin/AuthController.php',
     'App\\Http\\Controllers\\Admin\\CASClearanceController' => $baseDir . '/app/Http/Controllers/Admin/CASClearanceController.php',
     'App\\Http\\Controllers\\Admin\\CBMClearanceController' => $baseDir . '/app/Http/Controllers/Admin/CBMClearanceController.php',
@@ -83,6 +86,8 @@ return array(
     'App\\Http\\Middleware\\VerifyCsrfToken' => $baseDir . '/app/Http/Middleware/VerifyCsrfToken.php',
     'App\\Http\\Resources\\ActiveClearance' => $baseDir . '/app/Http/Resources/ActiveClearance.php',
     'App\\Http\\Resources\\ActiveClearanceCollection' => $baseDir . '/app/Http/Resources/ActiveClearanceCollection.php',
+    'App\\Http\\Resources\\Admin\\Alumni' => $baseDir . '/app/Http/Resources/Admin/Alumni.php',
+    'App\\Http\\Resources\\Admin\\AlumniCollection' => $baseDir . '/app/Http/Resources/Admin/AlumniCollection.php',
     'App\\Http\\Resources\\Cashier' => $baseDir . '/app/Http/Resources/Cashier.php',
     'App\\Http\\Resources\\CashierCollection' => $baseDir . '/app/Http/Resources/CashierCollection.php',
     'App\\Http\\Resources\\Clearance' => $baseDir . '/app/Http/Resources/Clearance.php',
@@ -109,8 +114,11 @@ return array(
     'App\\Http\\Resources\\SubmittedClearanceCollection' => $baseDir . '/app/Http/Resources/SubmittedClearanceCollection.php',
     'App\\Http\\Resources\\User' => $baseDir . '/app/Http/Resources/User.php',
     'App\\Http\\Resources\\UserCollection' => $baseDir . '/app/Http/Resources/UserCollection.php',
+    'App\\Http\\Resources\\User\\Profile\\WorkExperience' => $baseDir . '/app/Http/Resources/User/Profile/WorkExperience.php',
+    'App\\Http\\Resources\\User\\Profile\\WorkExperienceCollection' => $baseDir . '/app/Http/Resources/User/Profile/WorkExperienceCollection.php',
     'App\\Imports\\StudentsImport' => $baseDir . '/app/Imports/StudentsImport.php',
     'App\\IsActivated' => $baseDir . '/app/IsActivated.php',
+    'App\\Models\\Admin\\Alumni' => $baseDir . '/app/Models/Admin/Alumni.php',
     'App\\Models\\Industry' => $baseDir . '/app/Models/Industry.php',
     'App\\Models\\Skill' => $baseDir . '/app/Models/Skill.php',
     'App\\Models\\User\\UserContact' => $baseDir . '/app/Models/User/UserContact.php',

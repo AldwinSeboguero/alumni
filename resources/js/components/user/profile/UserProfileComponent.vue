@@ -34,8 +34,9 @@
         <v-spacer></v-spacer>
         <v-btn  text  rounded class="overline hidden-sm-and-down" to="/user/profile" link>
           <v-avatar size="32px" item class="mr-2">
-            <v-img :src="user.photo" alt="Vuetify"></v-img
-          ></v-avatar>
+             <img :src="user.photo" v-if="user.photo != 'profile.png'">
+                   <v-icon v-else>mdi-face-profile</v-icon>
+            </v-avatar>
           <span>{{ user.fname }}</span> 
         </v-btn>
         <v-btn icon class="hidden-sm-and-down">

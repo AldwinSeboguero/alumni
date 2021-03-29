@@ -2,7 +2,10 @@ import Vue from 'vue';
 import VueRouter from 'vue-router';
 import LoginComponent from './components/LoginComponent';
 
-import AdminComponent from './components/alumni/AdminComponent';
+import AdminComponent from './components/admin/AdminComponent';
+import AlumnusComponent from './components/admin/alumnus/AlumnusComponent';
+
+import AlumniComponent from './components/alumni/AlumniComponent';
 
 
 import ForgotPassword from './components/page/ForgotPassword';
@@ -50,12 +53,12 @@ const routes =[
           auth:false 
         } 
       },
-    // {
-    //     path: '/',
-    //     beforeEnter: checkRoleRoute,
-    //     name: 'login'
+    {
+        path: '/',
+        beforeEnter: checkRoleRoute,
+        name: 'login'
             
-    // },
+    },
     {
         path: '/login',
         component: LoginComponent, 
@@ -85,10 +88,15 @@ const routes =[
     next('/login');
             }
         },
-        redirect: '/admin/profile',
+        redirect: '/admin/alumnus',
         children: [
             //Admin Routes
-            
+            {
+                path: 'alumnus',
+                beforeEnter: isADMIN,
+                component: AlumnusComponent,
+                name: 'Alumnus' 
+            },
               
                 {
                     path: 'profile',
@@ -98,21 +106,83 @@ const routes =[
                 },
                 {
                     path: 'event',
+                    beforeEnter: isADMIN,
                     component: EventComponent,
                     name: 'event' 
                 },
                 {
                     path: 'people',
+                    beforeEnter: isADMIN,
                     component: PeopleComponent,
                     name: 'people' 
                 },
                 {
                     path: 'newsfeed',
+                    beforeEnter: isADMIN,
                     component: LiveFeedComponent,
                     name: 'newsfeed' 
                 },
                 {
                     path: 'career',
+                    beforeEnter: isADMIN,
+                    component: CareerComponent,
+                    name: 'career' 
+                },
+        ]
+        
+    },
+    {
+        path: '/alumni',
+        component: AlumniComponent,
+        name: 'Alumni', 
+        beforeEnter: (to, from, next) => {
+            if (localStorage.getItem('token')) {
+                next();
+            } else {
+    localStorage.removeItem('token');
+    localStorage.removeItem('token','user','loggedIn');
+    localStorage.removeItem('loggedIn');
+    localStorage.removeItem('user');
+    next('/login');
+            }
+        },
+        redirect: '/alumni/alumnus',
+        children: [
+            //Admin Routes
+            {
+                path: 'alumnus',
+                beforeEnter: isDIRECTOR,
+                component: AlumnusComponent,
+                name: 'Alumnus' 
+            },
+              
+                {
+                    path: 'profile',
+                    beforeEnter: isDIRECTOR,
+                    component: ProfileComponent,
+                    name: 'Profile' 
+                },
+                {
+                    path: 'event',
+                    beforeEnter: isDIRECTOR,
+                    component: EventComponent,
+                    name: 'event' 
+                },
+                {
+                    path: 'people',
+                    beforeEnter: isDIRECTOR,
+                    component: PeopleComponent,
+                    name: 'people' 
+                },
+                {
+                    path: 'newsfeed',
+                    beforeEnter: isDIRECTOR,
+                    component: LiveFeedComponent,
+                    name: 'newsfeed' 
+                },
+                {
+                    path: 'career',
+                    beforeEnter: isDIRECTOR,
                     component: CareerComponent,
                     name: 'career' 
                 },
@@ -227,6 +297,18 @@ function isADMIN(to, from, next) {
     localStorage.removeItem('user');
     next('/login');})
 }
+function isDIRECTOR(to, from, next) {
+    axios.get('/api/v1/verify')
+    .then(res => {
+            if(res.data.user_role.role.name=="director") {next();} 
+            else{next('/');}
+        }).catch(err => {
+    localStorage.removeItem('token');
+    localStorage.removeItem('token','user','loggedIn');
+    localStorage.removeItem('loggedIn');
+    localStorage.removeItem('user');
+    next('/login');})
+}
 
 function isUser(to, from, next) {
     axios.get('/api/v1/verify')
@@ -250,8 +332,12 @@ function checkRoleRoute(to, from, next) {
                 if(res.data.user_role.role.name=="admin") {
                     next('/admin');
                 } 
+
                 else if(res.data.user_role.role.name=="user") {
                     next('/user');
+                } 
+                else if(res.data.user_role.role.name=="director") {
+                    next('/alumni');
                 } 
                 
                 else{

@@ -74,7 +74,7 @@
     /* Applied to a wrapper div when using a custom component as content */
     .Vue-Toastification__toast-component-body.custom-class-2 {
         width: 100%;
-    }
+    } 
 </style>
     </head>
     <body>

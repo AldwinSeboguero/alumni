@@ -11,8 +11,14 @@
       >
         <v-sheet dark height="100%">
           <v-list-item two-line class="hidden-sm-and-up">
-            <v-list-item-avatar>
-              <img :src="user.photo" />
+              <v-list-item-avatar>
+                <v-avatar 
+                    class="grey darken-2"
+                    @click="dialog = true"
+                  >
+                   <img :src="user.photo" v-if="user.photo != 'profile.png'">
+                   <v-icon v-else>mdi-face-profile</v-icon>
+                </v-avatar>
             </v-list-item-avatar>
 
             <v-list-item-content>
@@ -198,8 +204,9 @@
         <v-spacer></v-spacer>
         <v-btn text large rounded class="overline" to="/user/profile" link>
           <v-avatar size="32px" item class="mr-2">
-            <v-img :src="user.photo" alt="Vuetify"></v-img
-          ></v-avatar>
+            <img :src="user.photo" v-if="user.photo != 'profile.png'">
+                   <v-icon v-else>mdi-face-profile</v-icon>
+           </v-avatar>
           {{ user.fname }}
         </v-btn>
         <v-btn icon>

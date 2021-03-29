@@ -13,9 +13,10 @@
               <v-col cols="12" class="text-center">
                 <v-avatar class="profile mt-2" color="grey" size="200" circle>
                   <expandable-image
-                    :src="user.photo"
+                    :src="user.photo" v-if="user.photo != 'profile.png'"
                     class="image"
-                  ></expandable-image>
+                  ></expandable-image> 
+                   <v-icon class="text-h1 white--text" v-else>mdi-face-profile</v-icon>
                 </v-avatar>
               </v-col>
               <v-col class="py-0">

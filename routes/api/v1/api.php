@@ -163,3 +163,9 @@ Route::post('deleteWorkExperience','User\ProfileController@deleteWorkExperience'
 
 //route for saving contact information
 Route::post('saveContactInformation','User\ProfileController@saveContactInformation');
+
+//alumni director add alumni route
+Route::resource('alumni', 'Admin\AlumniController');
+Route::post('studentNumber/verify','Admin\AlumniController@verifyStudentNumber');
+Route::post('deleteAlumni','Admin\AlumniController@deleteAlumni'); 
+Route::post('updateAlumni','Admin\AlumniController@updateAlumni'); 

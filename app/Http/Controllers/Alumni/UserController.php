@@ -24,8 +24,8 @@ class UserController extends Controller
       
         return response()->json([
             'batches' => Batch::orderBy('id')->get(),
-            'h_years' => HighBatch::orderBy('id')->get(),
-            'c_years' => CollegeBatch::orderBy('id')->get(),
+            'h_years' => HighBatch::orderByDesc('id')->get(),
+            'c_years' => CollegeBatch::orderByDesc('id')->get(),
         ],200);
     }
 
