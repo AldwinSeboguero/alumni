@@ -24,3 +24,6 @@ Route::get('/home', 'HomeController@index')->name('home');
 // Route::get('/{any}', function(){
 //     return redirect('http://oscs.parsu.edu.ph');
 // })->where('any','.*'); 
+
+Route::get('add-to-log', 'HomeController@myTestAddToLog');
+Route::get('logActivity', 'HomeController@logActivity');

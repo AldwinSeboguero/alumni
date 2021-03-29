@@ -164,6 +164,11 @@ Route::post('deleteWorkExperience','User\ProfileController@deleteWorkExperience'
 //route for saving contact information
 Route::post('saveContactInformation','User\ProfileController@saveContactInformation');
 
+//activity logs
+Route::post('add-to-log', 'HomeController@myTestAddToLog');
+Route::post('logActivity', 'HomeController@logActivity');
+
+
 //alumni director add alumni route
 Route::resource('alumni', 'Admin\AlumniController');
 Route::post('studentNumber/verify','Admin\AlumniController@verifyStudentNumber');

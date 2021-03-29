@@ -144,7 +144,10 @@ class AlumniController extends Controller
        
     }
     public function deleteAlumni(Request $request){
-        $alumni = Alumni::find($request->alumni['id'])->delete(); 
+        $alumni = Alumni::find($request->alumni['id']);
+        $deleted_alumni = $alumni;
+        $alumni->delete(); 
+        \LogActivity::addToLog('Delete Alumni Data. ( ID: '.$deleted_alumni->id.' NAME: '.$deleted_alumni->fname.' '.$deleted_alumni->lname.')');
         return response()->json([
             'alumni' => new AlumniCollection(Alumni::orderByDesc('updated_at')
             ->with('batchType')
