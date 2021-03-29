@@ -54,6 +54,8 @@ class AlumniController extends Controller
             'c_batch_year_id' => $request->c_year, 
         ]);  
         $alumni->save();
+        \LogActivity::addToLog('Add Alumni Data. ( ID: '.$alumni->id.' NAME: '.$alumni->fname.' '.$alumni->lname.')');
+        
         return response()->json([
             'alumni' => new AlumniCollection(Alumni::orderByDesc('updated_at')
             ->with('batchType')
